@@ -9,3 +9,14 @@
 2025-11-23 20:06:43 INFO  TC001_AccountRegistrationTest:48 - Test passed
 2025-11-23 20:06:43 INFO  TC001_AccountRegistrationTest:57 - ***** Finished TC001_AccountRegistrationTest *****
 2025-11-23 20:06:49 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2025-11-23 21:51:32 INFO  Utils:112 - [TestNG] Running:
+  D:\Java\Hybrid_Framework\testng.xml
+
+2025-11-23 21:51:39 INFO  TC001_AccountRegistrationTest:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-11-23 21:51:40 INFO  TC001_AccountRegistrationTest:22 - Clicked on MyAccount Link.. 
+2025-11-23 21:51:40 INFO  TC001_AccountRegistrationTest:25 - Clicked on Register Link.. 
+2025-11-23 21:51:40 INFO  TC001_AccountRegistrationTest:29 - Providing customer details...
+2025-11-23 21:51:42 INFO  TC001_AccountRegistrationTest:43 - Validating expected message..
+2025-11-23 21:51:42 INFO  TC001_AccountRegistrationTest:48 - Test passed
+2025-11-23 21:51:42 INFO  TC001_AccountRegistrationTest:57 - ***** Finished TC001_AccountRegistrationTest *****
+2025-11-23 21:51:48 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
