@@ -10,11 +10,11 @@ public class MyAccountPage extends BasePage{
 		super(driver);
 	}
 
-	@FindBy(xpath = "//h2[text()='My Account']") // MyAccount Page heading
+	@FindBy(xpath = "//h1[text()='My Account']") // MyAccount Page heading
 	WebElement msgHeading;
 	
 	
-	@FindBy(xpath = "//div[@class='list-group']//a[text()='Logout']")   //added in step6
+	@FindBy(xpath = "(//a[text()='Logout'])[2]")   //added in step6
 	WebElement lnkLogout;
 	
 	
@@ -34,10 +34,6 @@ public class MyAccountPage extends BasePage{
 	{
 		lnkLogout.click();
 	}
-	
-	
-	
-	
 	
 	
 }

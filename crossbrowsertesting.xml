@@ -3,41 +3,44 @@
 
 
 <suite name="Suite" thread-count="5" parallel="tests">
-  
-    
-  <listeners>
-	  <listener class-name="utilities.ExtentReportManager" />
-  </listeners>
-  
-  <test name="chrometest">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
-     
-    <classes>
-      <class name="TestCase.TC001_AccountRegistrationTest"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  <test name="edgetest">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
-     
-    <classes>
-      <class name="TestCase.TC001_AccountRegistrationTest"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  <test name="firefoxtest">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="firefox"/>
-     
-    <classes>
-      <class name="TestCase.TC001_AccountRegistrationTest"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  
-</suite> <!-- Suite -->
+
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="chrometest">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="TestCase.TC001_AccountRegistrationTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+	<test name="edgetest">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="edge" />
+
+		<classes>
+			<class name="TestCase.TC001_AccountRegistrationTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+	<test name="firefoxtest">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="TestCase.TC001_AccountRegistrationTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+</suite> <!--
+Suite -->

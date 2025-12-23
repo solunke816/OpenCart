@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class AccountRegistrationPage extends BasePage{
@@ -30,10 +31,13 @@ WebElement txtPassword;
 @FindBy(xpath="//input[@id='input-confirm']") 
 WebElement txtConfirmPassword;
 
+@FindBy(xpath="//input[@id='input-newsletter']") 
+WebElement Subscribe;
+
 @FindBy(xpath="//input[@name='agree']") 
 WebElement chkdPolicy;
 
-@FindBy(xpath="//input[@value='Continue']") 
+@FindBy(xpath="//button[text()='Continue']") 
 WebElement btnContinue;
 
 @FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
@@ -65,11 +69,16 @@ public void setPassword(String pwd) {
 
 }
 
+
 public void setConfirmPassword(String pwd) {
 	txtConfirmPassword.sendKeys(pwd);
 
 }
 
+public void setSubscribe() {
+	Subscribe.click();
+
+}
 public void setPrivacyPolicy() {
 	chkdPolicy.click();
 
@@ -77,14 +86,14 @@ public void setPrivacyPolicy() {
 
 public void clickContinue() {
 	//sol1 
-	btnContinue.click();
+	//btnContinue.click();
 	
 	//sol2 
 	//btnContinue.submit();
 	
 	//sol3
-	//Actions act=new Actions(driver);
-	//act.moveToElement(btnContinue).click().perform();
+	Actions act=new Actions(driver);
+	act.moveToElement(btnContinue).click().perform();
 				
 	//sol4
 	//JavascriptExecutor js=(JavascriptExecutor)driver;

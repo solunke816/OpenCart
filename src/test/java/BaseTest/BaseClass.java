@@ -25,7 +25,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-
 public class BaseClass {
 
 public static WebDriver driver;
@@ -76,7 +75,7 @@ public Properties p;
 			default: System.out.println("No matching browser"); return;
 			}
 			
-			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+			driver=new RemoteWebDriver(new URL("http://localhost:9090/job/OpenCart/"),capabilities);
 		}
 		
 				
@@ -95,16 +94,19 @@ public Properties p;
 			
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	
 		
 		driver.get(p.getProperty("appURL2")); // reading url from properties file.
-		driver.manage().window().maximize();
+     	driver.manage().window().maximize();
 	}
 	
-	@AfterClass(groups= {"Sanity","Regression","Master"})
+	
+	 @AfterClass(groups= {"Sanity","Regression","Master"}) 
 	public void tearDown()
-	{
-		driver.quit();
-	}
+	 { 
+		  driver.quit();
+		  }
+	
 	
 	public String randomeString()
 	{
