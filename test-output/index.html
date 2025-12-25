@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,55 +92,51 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 5 failed,   1 passed</span>
+                    <span class="method-stats">7 methods,  7 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.TC002_LoginTest" class="method navigator-link" hash-for-method="verify_login">verify_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(sweet121@gmail.com, admin, Succses)">verify_loginDDT(sweet121@gmail.com, admin, Succses)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(, test@123, Invalid)">verify_loginDDT(, test@123, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(pavanoltraining@gmail.com, test@123, Valid)">verify_loginDDT(pavanoltraining@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(abc123@gmail.com, test@123, Valid)">verify_loginDDT(abc123@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(laks@yahoo.com, xyz, Invalid)">verify_loginDDT(laks@yahoo.com, xyz, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(lakshmi@yahoo.com, Laxmi, Valid)">verify_loginDDT(lakshmi@yahoo.com, Laxmi, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(sweet121@gmail.com, admin, Succses)">verify_loginDDT(sweet121@gmail.com, admin, Succses)</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(abc123@gmail.com, test@123, Valid)">verify_loginDDT(abc123@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -152,82 +148,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestCase.TC003_LoginDDT</span>
+              <img src="skipped.png"/>
+              <span class="class-name">TestCase.TC002_LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_loginDDT(, test@123, Invalid)">
-                  </a> <!-- verify_loginDDT(, test@123, Invalid) -->
-                  <span class="method-name">verify_loginDDT</span>
-                  <span class="parameters">(,test@123,Invalid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at TestCase.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)
+                  <a name="verify_login">
+                  </a> <!-- verify_login -->
+                  <span class="method-name">verify_login</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.147)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e4a7049b7cfd02ce73948203ec42375, get {url=http://localhost/Opencartsite/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.147, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52490}, goog:processID: 19776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52490/devtoo..., se:cdpVersion: 143.0.7499.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e4a7049b7cfd02ce73948203ec42375
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at BaseTest.BaseClass.setup(BaseClass.java:99)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_loginDDT(pavanoltraining@gmail.com, test@123, Valid)">
-                  </a> <!-- verify_loginDDT(pavanoltraining@gmail.com, test@123, Valid) -->
-                  <span class="method-name">verify_loginDDT</span>
-                  <span class="parameters">(pavanoltraining@gmail.com,test@123,Valid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at TestCase.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:42)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_loginDDT(abc123@gmail.com, test@123, Valid)">
-                  </a> <!-- verify_loginDDT(abc123@gmail.com, test@123, Valid) -->
-                  <span class="method-name">verify_loginDDT</span>
-                  <span class="parameters">(abc123@gmail.com,test@123,Valid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at TestCase.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_loginDDT(laks@yahoo.com, xyz, Invalid)">
-                  </a> <!-- verify_loginDDT(laks@yahoo.com, xyz, Invalid) -->
-                  <span class="method-name">verify_loginDDT</span>
-                  <span class="parameters">(laks@yahoo.com,xyz,Invalid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at TestCase.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_loginDDT(lakshmi@yahoo.com, Laxmi, Valid)">
-                  </a> <!-- verify_loginDDT(lakshmi@yahoo.com, Laxmi, Valid) -->
-                  <span class="method-name">verify_loginDDT</span>
-                  <span class="parameters">(lakshmi@yahoo.com,Laxmi,Valid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at TestCase.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:42)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">TestCase.TC003_LoginDDT</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -237,10 +195,170 @@
                   </a> <!-- verify_loginDDT(sweet121@gmail.com, admin, Succses) -->
                   <span class="method-name">verify_loginDDT</span>
                   <span class="parameters">(sweet121@gmail.com,admin,Succses)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.147)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab825adaea02fd2f9e0acc8da7279090, get {url=http://localhost/Opencartsite/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.147, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, goog:processID: 17188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 143.0.7499.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab825adaea02fd2f9e0acc8da7279090
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at BaseTest.BaseClass.setup(BaseClass.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_loginDDT(, test@123, Invalid)">
+                  </a> <!-- verify_loginDDT(, test@123, Invalid) -->
+                  <span class="method-name">verify_loginDDT</span>
+                  <span class="parameters">(,test@123,Invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.147)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab825adaea02fd2f9e0acc8da7279090, get {url=http://localhost/Opencartsite/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.147, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, goog:processID: 17188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 143.0.7499.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab825adaea02fd2f9e0acc8da7279090
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at BaseTest.BaseClass.setup(BaseClass.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_loginDDT(pavanoltraining@gmail.com, test@123, Valid)">
+                  </a> <!-- verify_loginDDT(pavanoltraining@gmail.com, test@123, Valid) -->
+                  <span class="method-name">verify_loginDDT</span>
+                  <span class="parameters">(pavanoltraining@gmail.com,test@123,Valid)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.147)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab825adaea02fd2f9e0acc8da7279090, get {url=http://localhost/Opencartsite/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.147, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, goog:processID: 17188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 143.0.7499.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab825adaea02fd2f9e0acc8da7279090
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at BaseTest.BaseClass.setup(BaseClass.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_loginDDT(laks@yahoo.com, xyz, Invalid)">
+                  </a> <!-- verify_loginDDT(laks@yahoo.com, xyz, Invalid) -->
+                  <span class="method-name">verify_loginDDT</span>
+                  <span class="parameters">(laks@yahoo.com,xyz,Invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.147)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab825adaea02fd2f9e0acc8da7279090, get {url=http://localhost/Opencartsite/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.147, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, goog:processID: 17188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 143.0.7499.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab825adaea02fd2f9e0acc8da7279090
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at BaseTest.BaseClass.setup(BaseClass.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_loginDDT(lakshmi@yahoo.com, Laxmi, Valid)">
+                  </a> <!-- verify_loginDDT(lakshmi@yahoo.com, Laxmi, Valid) -->
+                  <span class="method-name">verify_loginDDT</span>
+                  <span class="parameters">(lakshmi@yahoo.com,Laxmi,Valid)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.147)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab825adaea02fd2f9e0acc8da7279090, get {url=http://localhost/Opencartsite/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.147, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, goog:processID: 17188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 143.0.7499.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab825adaea02fd2f9e0acc8da7279090
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at BaseTest.BaseClass.setup(BaseClass.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_loginDDT(abc123@gmail.com, test@123, Valid)">
+                  </a> <!-- verify_loginDDT(abc123@gmail.com, test@123, Valid) -->
+                  <span class="method-name">verify_loginDDT</span>
+                  <span class="parameters">(abc123@gmail.com,test@123,Valid)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.147)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab825adaea02fd2f9e0acc8da7279090, get {url=http://localhost/Opencartsite/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.147, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, goog:processID: 17188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 143.0.7499.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab825adaea02fd2f9e0acc8da7279090
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at BaseTest.BaseClass.setup(BaseClass.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -251,10 +369,14 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;TestCase.TC002_LoginTest&quot;/&gt;
       &lt;class name=&quot;TestCase.TC003_LoginDDT&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -269,7 +391,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -284,6 +406,22 @@
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">verify_loginDDT</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Master</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -303,36 +441,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verify_loginDDT')
 data.setCell(0, 2, 'TestCase.TC003_LoginDDT')
-data.setCell(0, 3, 11517);
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verify_loginDDT')
 data.setCell(1, 2, 'TestCase.TC003_LoginDDT')
-data.setCell(1, 3, 11282);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verify_loginDDT')
 data.setCell(2, 2, 'TestCase.TC003_LoginDDT')
-data.setCell(2, 3, 11169);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verify_loginDDT')
 data.setCell(3, 2, 'TestCase.TC003_LoginDDT')
-data.setCell(3, 3, 1204);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verify_loginDDT')
 data.setCell(4, 2, 'TestCase.TC003_LoginDDT')
-data.setCell(4, 3, 1171);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verify_loginDDT')
-data.setCell(5, 2, 'TestCase.TC003_LoginDDT')
-data.setCell(5, 3, 1123);
+data.setCell(5, 1, 'verify_login')
+data.setCell(5, 2, 'TestCase.TC002_LoginTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verify_loginDDT')
+data.setCell(6, 2, 'TestCase.TC003_LoginDDT')
+data.setCell(6, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -358,49 +500,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestCase.TC003_LoginDDT</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestCase.TC002_LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.TC003_LoginDDT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verify_loginDDT(pavanoltraining@gmail.com, test@123, Valid)</span>
-                <span class="method-start">6534 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verify_loginDDT(lakshmi@yahoo.com, Laxmi, Valid)</span>
-                <span class="method-start">18067 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verify_loginDDT(sweet121@gmail.com, admin, Succses)</span>
-                <span class="method-start">29246 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verify_loginDDT(laks@yahoo.com, xyz, Invalid)</span>
-                <span class="method-start">40532 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verify_loginDDT(abc123@gmail.com, test@123, Valid)</span>
-                <span class="method-start">41665 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verify_loginDDT(, test@123, Invalid)</span>
-                <span class="method-start">42836 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">44050 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">7898 ms</span>
+              </div> <!-- configuration-class before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
