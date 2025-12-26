@@ -1,4 +1,4 @@
-2025-12-25 19:59:47 INFO  Utils:112 -
-			[TestNG] Running:
-  D:\Java\Hybrid_Framework\testng.xml
-
+2025-12-26 11:32:07 INFO  TC002_LoginTest:16 -
+			****** Startign TC_002_LoginTest *****
+2025-12-26 11:32:09 INFO  TC002_LoginTest:42 -
+			****** Finished TC_002_LoginTest *****
